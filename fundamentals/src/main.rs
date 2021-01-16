@@ -1,9 +1,9 @@
-fn main() {
-    let x = do_stuff(2.0, 12.5);
-    println!("{}", x);
-}
+use rand::Rng;
+use fundamentals::greet;
 
-fn do_stuff(qty: f64, oz: f64) -> f64 {
-    println!("{} {}-oz sarsaparilla(s)!", qty, oz);
-    qty * oz
+fn main() {
+    greet();
+    let mut rng = rand::thread_rng();
+    let x: u32 = rng.gen_range(0, 10);
+    println!("{}", x);
 }
