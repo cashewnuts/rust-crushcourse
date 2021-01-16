@@ -1,5 +1,5 @@
 [package]
-name = "rust-crushcourse"
+name = "fundamentals"
 version = "0.1.0"
 authors = ["Tatsuya Kanemoto <cashewnuts903@gmail.com>"]
 edition = "2018"
