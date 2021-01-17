@@ -1,11 +1,10 @@
 use std::fs::File;
-use std::collections::HashMap;
 
 fn main() {
-    let mut x: Option<i32> = None;
+    let x: Option<i32> = None;
     // x = Some(5);
-    x.is_some();
-    x.is_none();
+    // x.is_some();
+    // x.is_none();
     for i in x {
         println!("{}", i);
     }
